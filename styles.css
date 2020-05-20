@@ -10,12 +10,18 @@ h1{
 
 li{
     display: inline;
-    float right;
     border: solid black 3px;
     border-radius: 15px;
     padding: 5px;
     margin: 10px;
     background-color: cornsilk;
-    
-    
+     
+}
+p{
+    background-color: cornsilk;
+}
+
+#smallPic{
+    width: 500px;
+    height: 700px;
 }
