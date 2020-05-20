@@ -1,0 +1,21 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Helvetica;
+    
+    
+}
+h1{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    float right;
+    border: solid black 3px;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    background-color: cornsilk;
+    
+    
+}
