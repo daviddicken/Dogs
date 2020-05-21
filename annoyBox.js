@@ -9,6 +9,6 @@ else if (yesNo == "no"){
     confirm("How about this one? Just hit OK if I annoyed you a little bit.")
 }
 else{
-    alert("I don't understand your jibberish. Your either not making no since or your letters are to big. I only understand lower case letters")
+    alert("I don't understand your jibberish. Your either not making any since or your letters are to big. I only understand lower case letters")
 }
 
