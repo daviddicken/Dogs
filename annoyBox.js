@@ -1,7 +1,7 @@
 'use strict'
+//My apologize to whoever has to read this. I felt like I was coding with a hammer
 
 // get variable from user to pass into function
-
 var yesNo = prompt ("This boxes sole purpose is to annoy you!  Did it work?" ).toLowerCase();
 
 // functions
