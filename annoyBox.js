@@ -19,7 +19,6 @@ function answerMe(responce)
 
 function moreBoxes(answer)
 {
-    
     if (answer == "yes")
     {
         alert("Thank you, I feel complete now.")
