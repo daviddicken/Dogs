@@ -1,13 +1,7 @@
 'use strict'
 //My apologize to whoever has to read this. I felt like I was coding with a hammer
 
-// get variable from user to pass into function
-var yesNo = prompt ("This boxes sole purpose is to annoy you!  Did it work?" ).toLowerCase();
-
-// functions
-
 // answerMe function to make sure user gave a correct answer
-// WHILE LOOP
 function answerMe(responce)
 {
     while((responce !== "yes") && (responce !== "no"))
@@ -16,6 +10,8 @@ function answerMe(responce)
     }
     return responce;
 }
+
+
 
 function moreBoxes(answer)
 {
@@ -29,10 +25,11 @@ function moreBoxes(answer)
     }
 }
 
-//FOR LOOP
+
+
 function playGame(tries)
 {
-    // random number generator Math.random generate a random number between 0.0 - 1.0, we multiply this by 10 then add 1 (so that we wont get a number rounded down to 0) Math.floor takes that number and rounds down to a whole integer
+    // random number generator 
     var random = Math.floor(Math.random() * 10) + 1;
     // var to keep track if user won or lost
     var win
@@ -70,7 +67,7 @@ function playGame(tries)
 
 
 
-
+var yesNo = prompt ("This boxes sole purpose is to annoy you!  Did it work?" ).toLowerCase();
 var potato = answerMe(yesNo);
 moreBoxes(potato);
 playGame(5);
